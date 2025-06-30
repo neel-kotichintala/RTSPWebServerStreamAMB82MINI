@@ -1,0 +1,16 @@
+{
+  "name": "realtekserver",
+  "version": "1.0.0",
+  "description": "Node.js server to receive RTSP links, transcode to HLS, and serve web streams",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}

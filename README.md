@@ -4,4 +4,5 @@ Streaming real time video and audio to a web server using the Realtek AMB82 Mini
 1. Begins RTSP server on AMB82
 2. Start remote server
 3. Remote server pulls RTSP stream link from amb82
-4. Server displays stream to webpage
+4. Server uses ffmpeg to translate RTSP stream to HLS (HTTP Live Streaming)
+5. Displays hls stream on web browser
